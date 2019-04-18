@@ -168,14 +168,17 @@
           >Codepen.io</a
         >
       </div>
-    </section>
-
-    <!-- Portfolio -->
-    <section class="content-section" id="portfolio">
-      <div class="container">
-        <div class="content-section-heading text-center">
-          <h3 class="text-secondary mb-0">Portfolio</h3>
-          <h2 class="mb-5">Recent Projects</h2>
+      <div class="row no-gutters">
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="projectOne.html">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Catch the coin!</h2>
+                <p class="mb-0">A Cool JavaScript Game where user quickly collects coins for a score! </p>
+              </span>
+            </span>
+            <img class="img-fluid" src="img/portfolio-1.JPG" alt="">
+          </a>
         </div>
         <div class="row no-gutters">
           <div class="col-lg-6">
@@ -189,33 +192,27 @@
                   </p>
                 </span>
               </span>
-              <img class="img-fluid" src="img/portfolio-1.jpg" alt="" />
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="projectTwo.html">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>My Blog</h2>
-                  <p class="mb-0">
-                    A blog about life Tips, tricks and advice to make life
-                    easier!
-                  </p>
-                </span>
+            </span>
+            <img class="img-fluid" src="img/portfolio-2.JPG" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="projectThree.html">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Gambrary!</h2>
+                <p class="mb-0">Updates my excelsheet when I buy a new game! with just a click of a button!</p>
               </span>
-              <img class="img-fluid" src="img/portfolio-2.jpg" alt="" />
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="projectThree.html">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Gambrary!</h2>
-                  <p class="mb-0">
-                    Updates my excelsheet when I buy a new game! with just a
-                    click of a button!
-                  </p>
-                </span>
+            </span>
+            <img class="img-fluid" src="img/portfolio-3.JPG" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="projectFour.html">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Login Template</h2>
+                <p class="mb-0">Beautiful Log-in template with sign-in or register prompt.</p>
               </span>
               <img class="img-fluid" src="img/portfolio-3.jpg" alt="" />
             </a>
