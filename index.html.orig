@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Tobias Portfolio</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom Fonts -->
+    <link
+      href="vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="vendor/simple-line-icons/css/simple-line-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.min.css" rel="stylesheet" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    </head>
+
+
+  <body id="page-top">
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+      <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="#page-top">Tobias Scott</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#page-top">Home</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#services">Services</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead d-flex">
+      <div class="container text-center my-auto">
+        <h1 class="mb-1 animated flipInX delay 1s" style="font-family: 'Dancing Script', cursive; ">Tobias Scott</h1>
+        <h3 class="mb-5">
+          <!-- <em style="color: #fff; font-size: 2.5rem; text-shadow: 1px 3px 3px #313131;">Web Developer</em> -->
+        </h3>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about"
+          >Find Out More</a
+        >
+      </div>
+      <div class="overlay"></div>
+    </header>
+
+    <!-- About -->
+    <section class="content-section bg-light" id="about">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1 style="text-decoration: underline;">About Me</h1>
+            <h2 style="color: #6c757d;"></h1>
+
+            <p class="lead mb-5">
+               Welcome! I am a Web Developer who loves to code! I recently completed a 2 year degree (Information Technology).I am highly effective at optimizing user experiences and improving
+              site functionality by utilizing advanced abilities in Python,
+              HTML, CSS, JavaScript and PHP. I'm a resourceful and industrious
+              professional with an analytical and detail-oriented mindset.
+            </p>
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services"
+              >What I Offer</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section
+      class="content-section bg-primary text-white text-center"
+      id="services"
+    >
+      <div class="container">
+        <div class="content-section-heading">
+          <h3 class="text-secondary mb-0">Services</h3>
+          <h2 class="mb-5">What I Offer</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-screen-smartphone"></i>
+            </span>
+            <h4>
+              <strong>Responsive</strong>
+            </h4>
+            <p class="text-faded mb-0">Looks great on any screen size!</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-pencil"></i>
+            </span>
+            <h4>
+              <strong>Beautiful design</strong>
+            </h4>
+            <p class="text-faded mb-0">You see it, I create it!</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-clock"></i>
+            </span>
+            <h4>
+              <strong>Time management</strong>
+            </h4>
+            <p class="text-faded mb-0">
+              Providing effective results, on time! If not sooner!
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-question"></i>
+            </span>
+            <h4>
+              <strong>Problem Solving</strong>
+            </h4>
+            <p class="text-faded mb-0">
+              Seeing a problem at hand, strategizing, reacting, and performing!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Callout -->
+    <section class="callout">
+      <div class="container text-center">
+        <h2 class="mx-auto mb-5">
+          Check out some of my work
+          <em>live</em>
+          on codepen!
+        </h2>
+        <a class="btn btn-primary btn-xl" href="https://codepen.io/tobias2023/"
+          >Codepen.io</a
+        >
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="projectOne.html">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Catch the coin!</h2>
+                <p class="mb-0">A Cool JavaScript Game where user quickly collects coins for a score! </p>
+              </span>
+            </span>
+            <img class="img-fluid" src="img/portfolio-1.JPG" alt="">
+          </a>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="projectOne.html">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Catch the coin!</h2>
+                  <p class="mb-0">
+                    A Cool JavaScript Game where user quickly collects coins for
+                    a score!
+                  </p>
+                </span>
+              </span>
+            </span>
+            <img class="img-fluid" src="img/portfolio-2.JPG" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="projectThree.html">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Gambrary!</h2>
+                <p class="mb-0">Updates my excelsheet when I buy a new game! with just a click of a button!</p>
+              </span>
+            </span>
+            <img class="img-fluid" src="img/portfolio-3.JPG" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="projectFour.html">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Login Template</h2>
+                <p class="mb-0">Beautiful Log-in template with sign-in or register prompt.</p>
+              </span>
+              <img class="img-fluid" src="img/portfolio-3.jpg" alt="" />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="projectFour.html">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Login Template</h2>
+                  <p class="mb-0">
+                    Beautiful Log-in template with sign-in or register prompt.
+                  </p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/login1.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="content-section bg-primary text-white">
+      <div class="container text-center">
+        <h2 class="mb-4">Languages I Speak!</h2>
+
+        <img src="https://img.icons8.com/nolan/164/000000/source-code.png" />
+        <img src="https://img.icons8.com/color/164/000000/css3.png" />
+        <img src="https://img.icons8.com/color/164/000000/javascript.png" />
+        <img src="https://img.icons8.com/color/164/000000/bootstrap.png" />
+        <img src="https://img.icons8.com/color/164/000000/python.png" />
+        <hr/>
+        <!-- <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
+      <a href="#" class="btn btn-xl btn-dark">Look at Me!</a> -->
+      </div>
+    </section>
+
+    <!-- Map -->
+    <section id="contact" class="map">
+      <iframe
+        width="100%"
+        height="100%"
+        frameborder="0"
+        scrolling="no"
+        marginheight="0"
+        marginwidth="0"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18550.538668607212!2d-83.11496444775327!3d40.12281090977466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8838ed3b311f7c4d%3A0x6a5f07179d04bd60!2s7377+Riverside+Dr%2C+Powell%2C+OH+43065!5e0!3m2!1sen!2sus!4v1555257880888!5m2!1sen!2sus"
+        width="600"
+        height="450"
+        frameborder="0"
+        style="border:0"
+      ></iframe>
+      <br />
+      <small>
+        <a
+          href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18550.538668607212!2d-83.11496444775327!3d40.12281090977466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8838ed3b311f7c4d%3A0x6a5f07179d04bd60!2s7377+Riverside+Dr%2C+Powell%2C+OH+43065!5e0!3m2!1sen!2sus!4v1555257880888!5m2!1sen!2sus"
+          width="600"
+          height="450"
+          frameborder="0"
+          style="border:0"
+        ></a>
+      </small>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <p>Lets connect:</p>
+      <div class="container">
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a
+              class="social-link rounded-circle text-white mr-3"
+              href="https://www.linkedin.com/in/tobias-scott-b3572751/#"
+            >
+              <i class="icon-social-linkedin"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              class="social-link rounded-circle text-white mr-3"
+              href="https://twitter.com/TOBIAS2023"
+            >
+              <i class="icon-social-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              class="social-link rounded-circle text-white"
+              href="https://github.com/Tobias2023"
+            >
+              <i class="icon-social-github"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="text-muted small mb-0">
+          Copyright &copy; Tobias c scott 2019
+        </p>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
+  </body>
+</html>
