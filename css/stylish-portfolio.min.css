@@ -1,4 +1,8 @@
-body,html{width:100%;height:100%; background-color: rgb(33, 37, 41) !important;}
+/*!
+ * Start Bootstrap - Stylish Portfolio v5.0.4 (https://startbootstrap.com/template-overviews/stylish-portfolio)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
+ */body,html{width:100%;height:100%; background-color: rgb(33, 37, 41) !important;}
  
  body{font-family:'Source Sans Pro'}
  
@@ -30,7 +34,7 @@ body,html{width:100%;height:100%; background-color: rgb(33, 37, 41) !important;}
  
  .masthead{min-height:30rem;position:relative;display:table;width:100%;height:auto;padding-top:8rem;padding-bottom:8rem;background:-webkit-gradient(linear,left top,right top,from(rgba(255,255,255,.1)),to(rgba(255,255,255,.1))),url('https://unsplash.com/photos/FBNxmwEVpAc');background:linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%),url(../img/bg-masthead.jpg);background-position:center center;background-repeat:no-repeat;background-size:cover}
  
- .masthead h1{font-size:4rem;margin:0;padding:0; color: rgb(255, 255, 255);background: #212529;  border-radius: 25px; }
+ .masthead h1{font-size:4rem;margin:0;padding:0; color: rgb(250, 250, 250);background: #212529;  border-radius: 25px;}
  
  @media (min-width:992px){.masthead{height:100vh}
  
@@ -164,7 +168,7 @@ body,html{width:100%;height:100%; background-color: rgb(33, 37, 41) !important;}
 }
 .carrousel li img {
   width:3em;
-  border-radius: 50%;
+  border-radius: 50% !important;
   margin-left: -1.5em;
   margin-right: 0.5em;
   vertical-align: middle;
@@ -220,7 +224,9 @@ body,html{width:100%;height:100%; background-color: rgb(33, 37, 41) !important;}
 }
 /* You have to repeat this with each slide/dot */
 .carrousel #radio-1:checked ~ .slidesNavigation label#dotForRadio-1,
-.carrousel #radio-2:checked ~ .slidesNavigation label#dotForRadio-2 {
+.carrousel #radio-2:checked ~ .slidesNavigation label#dotForRadio-2,
+.carrousel #radio-3:checked ~ .slidesNavigation label#dotForRadio-3,
+.carrousel #radio-4:checked ~ .slidesNavigation label#dotForRadio-4 {
   background: #666666;
 }
 
