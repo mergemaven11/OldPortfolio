@@ -224,9 +224,7 @@
 }
 /* You have to repeat this with each slide/dot */
 .carrousel #radio-1:checked ~ .slidesNavigation label#dotForRadio-1,
-.carrousel #radio-2:checked ~ .slidesNavigation label#dotForRadio-2,
-.carrousel #radio-3:checked ~ .slidesNavigation label#dotForRadio-3,
-.carrousel #radio-4:checked ~ .slidesNavigation label#dotForRadio-4 {
+.carrousel #radio-2:checked ~ .slidesNavigation label#dotForRadio-2 {
   background: #666666;
 }
 
